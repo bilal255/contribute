@@ -4,7 +4,7 @@
 using namespace std;
 int main()
 {
-    int a, b, sum, sub, mul, div;
+    int a, b, sum, sub, mul, div, mod;
     cout << "Enter the two numbers you want to add: ";
     cin >> a >> b;
     sum = (a + b);
@@ -23,6 +23,10 @@ int main()
     cin >> a >> b;
     div = (a / b);
     cout << "The division of " << a << " and " << b << "are: " << div;
+    cout << "Enter the two numbers you want to take modulus of: ";
+    cin >> a >> b;
+    mod = (a % b);
+    cout << "The division of " << a << " and " << b << "are: " << mod;
     system ("cls");
     return 0;
 }
